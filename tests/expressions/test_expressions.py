@@ -12,8 +12,8 @@ OK
 <unittest.runner.TextTestResult run=11 errors=0 failures=0>
 """
 from unittest import TestCase
-from . import Expressions
-
+#from . import Expressions
+from src.expressions.expressions import Expressions
 
 """
 tested objects (objects "under test", "ut") as instances of the Expressions class
